@@ -1,0 +1,39 @@
+body{
+    background: rgb(46, 123, 240);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section#main{
+    margin: auto;
+}
+
+div#board{
+    /* background: white; */
+    /* padding: 0px 0px 0px 0px; */
+    margin: auto;
+    background: white;
+    width: 700px;
+    height: 700px;
+    border-style: none;
+    /* border-radius: 70px;  */
+    /* box-shadow: 5px 5px 10px rgba(31, 30, 30, 0.555); */
+} 
+
+div#start {
+   text-align: center;
+}
+p#status {
+    font: normal 8pt Arial;
+    color: aliceblue;
+}
+
+footer{
+    background: white;
+    text-align: center;
+    font-style: italic;
+}

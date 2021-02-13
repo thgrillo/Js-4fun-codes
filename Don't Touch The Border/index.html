@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Game</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <header>
+        <h1>Tente passar sem encostar nas paredes</h1>
+        
+    </header>
+    <section id="main">
+        <p id="status">status:</p>
+        <p id="gamestatus"></p>
+        <div id="color" style="width:30px;height:30px;"></div>
+        <div id="board">
+            <div id="addcena">
+                <div id="start">
+                    <p>Passe o mouse no ponto AZUL para iniciar; <br>
+                    Complete o caminho até o ponto VERMELHO;</p>
+                    <h3>>> Start level 1 <<</h3>
+                    <input type="button" value="Go" onclick="loadgame()">
+                </div>
+                <canvas id="myCanvas" width="700" height="700" style="visibility: hidden;">
+                    Your browser does not support the HTML5 canvas tag.
+                    <!-- onmousemove="mouseOn(event)" -->
+                </canvas>
+            </div>
+                
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Th07</p>
+    </footer>
+    <script src="core.js"></script>
+</body>
+</html>
